@@ -45,7 +45,7 @@ hr {
   flex-direction: column;
 
   gap: 2rem;
-  padding: 32px 40px;
+  padding: 2rem 2.5rem;
 }
 
 .page-details {
@@ -79,12 +79,12 @@ hr {
   gap: 1rem;
   color: var(--stone-600);
 
-  padding: 24px;
+  padding: 1.5rem;
 }
 
 .page-preparation__title {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 100%;
   color: var(--rose-800);
 }
@@ -102,7 +102,7 @@ hr {
 }
 
 .page-preparation__container li:not(:first-child) {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .page-preparation__container li::marker {
@@ -123,7 +123,7 @@ hr {
 
 .page-ingredients__title {
   font-family: "Young Serif", sans-serif;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: normal;
   line-height: 100%;
   color: var(--brown-800);
@@ -144,7 +144,7 @@ hr {
 }
 
 .page-ingredients__container li:not(:first-child) {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .page-ingredients__container li::marker {
@@ -161,7 +161,7 @@ hr {
 
 .page-instructions__title {
   font-family: "Young Serif", sans-serif;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: normal;
   line-height: 100%;
   color: var(--brown-800);
@@ -182,7 +182,7 @@ hr {
 }
 
 .page-instructions__container li:not(:first-child) {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .page-instructions__container li::marker {
@@ -203,7 +203,7 @@ hr {
 
 .page-nutrition__title {
   font-family: "Young Serif", sans-serif;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: normal;
   line-height: 100%;
   color: var(--brown-800);
@@ -221,7 +221,7 @@ hr {
   display: flex;
   flex-direction: column;
 
-  gap: 12px;
+  gap: 0.75rem;
 
   font-family: "Outfit", sans-serif;
   font-size: 1rem;
@@ -256,22 +256,22 @@ hr {
 @media screen and (min-width: 768px) {
   .page-container {
     max-width: 616px;
-    margin: 128px 76px;
-    padding: 40px;
-    border-radius: 24px;
+    margin: 8rem 4.75rem;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
   }
 
   .page-content {
     padding: 0;
-    margin-top: 24px;
+    margin-top: 1.5rem;
   }
 
   .page-image img {
-    border-radius: 12px;
+    border-radius: 0.75;
   }
 
   .page-preparation {
-    padding: 24px;
+    padding: 1.5rem;
   }
 
   .page-nutrition__type,
