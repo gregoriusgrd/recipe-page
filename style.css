@@ -45,7 +45,7 @@ hr {
   flex-direction: column;
 
   gap: 2rem;
-  padding: 2rem 2.5rem;
+  padding: 2.5rem 2rem;
 }
 
 .page-details {
@@ -253,7 +253,7 @@ hr {
   margin-right: 1rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) { /* 768px */
   .page-container {
     max-width: 616px;
     margin: 8rem 4.75rem;
@@ -263,11 +263,11 @@ hr {
 
   .page-content {
     padding: 0;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
   }
 
   .page-image img {
-    border-radius: 0.75;
+    border-radius: 0.75rem;
   }
 
   .page-preparation {
@@ -280,7 +280,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 64rem) { /* 1024px */
   .page-container {
     max-width: 736px;
   }
