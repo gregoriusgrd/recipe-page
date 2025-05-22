@@ -33,7 +33,7 @@ hr {
 
 .page-container {
   background-color: var(--white);
-  max-width: 375px;
+  max-width: 23.5rem;
 }
 
 .page-image img {
@@ -239,7 +239,7 @@ hr {
   margin-left: 2rem;
   margin-right: 1rem;
 
-  width: 120px;
+  width: 7.5rem;
 }
 
 .page-nutrition__amount {
@@ -249,13 +249,13 @@ hr {
   line-height: 150%;
   color: var(--brown-800);
 
-  width: 120px;
+  width: 7.5rem;
   margin-right: 1rem;
 }
 
 @media screen and (min-width: 48rem) { /* 768px */
   .page-container {
-    max-width: 616px;
+    max-width: 38.5rem;
     margin: 8rem 4.75rem;
     padding: 2.5rem;
     border-radius: 1.5rem;
@@ -276,17 +276,17 @@ hr {
 
   .page-nutrition__type,
   .page-nutrition__amount {
-    width: 228px;
+    width: 14.25rem;
   }
 }
 
 @media screen and (min-width: 64rem) { /* 1024px */
   .page-container {
-    max-width: 736px;
+    max-width: 46rem;
   }
 
   .page-nutrition__type,
   .page-nutrition__amount {
-    width: 288px;
+    width: 18rem;
   }
 }
