@@ -27,7 +27,7 @@ body {
 
 hr {
   border: none;
-  border-top: 2px solid var(--stone-150);
+  border-block-start: 1px solid var(--stone-150);
   width: 100%;
 }
 
@@ -90,7 +90,7 @@ hr {
 }
 
 .page-preparation__list {
-  padding-left: 1rem;
+  padding-inline-start: 1rem;
 }
 
 .page-preparation__container li {
@@ -98,11 +98,11 @@ hr {
   font-weight: normal;
   line-height: 150%;
 
-  padding-left: 1rem;
+  padding-inline-start: 1rem;
 }
 
 .page-preparation__container li:not(:first-child) {
-  padding-top: 0.5rem;
+  padding-block-start: 0.5rem;
 }
 
 .page-preparation__container li::marker {
@@ -130,7 +130,7 @@ hr {
 }
 
 .page-ingredients__list {
-  padding-left: 1rem;
+  ppadding-inline-start: 1rem;
 }
 
 .page-ingredients__container li {
@@ -140,11 +140,11 @@ hr {
   line-height: 150%;
   color: var(--stone-600);
 
-  padding-left: 1rem;
+  padding-inline-start: 1rem;
 }
 
 .page-ingredients__container li:not(:first-child) {
-  padding-top: 0.5rem;
+  padding-block-start: 0.5rem;
 }
 
 .page-ingredients__container li::marker {
@@ -168,7 +168,7 @@ hr {
 }
 
 .page-instructions__list {
-  padding-left: 1rem;
+  padding-inline-start: 1rem;
 }
 
 .page-instructions__container li {
@@ -178,11 +178,11 @@ hr {
   line-height: 150%;
   color: var(--stone-600);
 
-  padding-left: 1rem;
+  padding-inline-start: 1rem;
 }
 
 .page-instructions__container li:not(:first-child) {
-  padding-top: 0.5rem;
+  padding-block-start: 0.5rem;
 }
 
 .page-instructions__container li::marker {
@@ -236,8 +236,8 @@ hr {
 }
 
 .page-nutrition__type {
-  margin-left: 2rem;
-  margin-right: 1rem;
+  margin-inline-start: 2rem;
+  margin-inline-end: 1rem;
 
   width: 7.5rem;
 }
@@ -250,7 +250,7 @@ hr {
   color: var(--brown-800);
 
   width: 7.5rem;
-  margin-right: 1rem;
+  margin-inline-end: 1rem;
 }
 
 @media screen and (min-width: 48rem) { /* 768px */
@@ -263,7 +263,7 @@ hr {
 
   .page-content {
     padding: 0;
-    margin-top: 2.5rem;
+    margin-block-start: 2.5rem;
   }
 
   .page-image img {
